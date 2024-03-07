@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Forque';
+  src: url('../fonts/Forque.ttf') format('woff2');
+  /* Puedes incluir múltiples formatos de fuentes para mayor compatibilidad */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.producto-card {
+    margin: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    color: black;
+    font-size: xx-large;
+    font-family:'Forque';
+  }
+  
+  .producto-img {
+    border-radius: 9px;
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    margin-bottom: -30px;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .producto-card {
+      width: calc(50% - 20px); /* Ajusta el tamaño según sea necesario */
+    }
+  }

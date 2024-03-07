@@ -1,0 +1,26 @@
+.loading-container {
+    background-color: #ffffff; /* Fondo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .loader {
+    border: 8px solid #000000; /* Borde negro */
+    border-radius: 50%;
+    border-top: 8px solid transparent; /* Top transparente para efecto de giro */
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite; /* Animación de giro */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
