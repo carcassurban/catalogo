@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const GET_PRODUCTOS = "GET_PRODUCTOS"
 export const GET_PRODUCTO = "GET_PRODUCTO"
-const urlServer = "https://catalogo-carcassurban-server.vercel.app/server"
+const urlServer = "https://catalogo-azure.vercel.app/server"
 
 
 export const getProductos = () => {

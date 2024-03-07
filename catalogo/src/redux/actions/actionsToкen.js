@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const GET_TOKEN = "GET_TOKEN"
-const urlServer = "https://catalogo-carcassurban-server.vercel.app/server"
+const urlServer = "https://catalogo-azure.vercel.app/server"
 export const getToken = (userData) => {
     return async function (dispatch){
         const datos = userData;
