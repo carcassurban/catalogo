@@ -5,7 +5,7 @@ import productRoutes from "./routes/products.routes.js";
 
 const app = express();
 const corsOptions = {
-    origin: 'https://carcass-urban-catalogo.vercel.app'
+    origin: 'https://carcassurban-catalogo.vercel.app'
   };
 app.use(cors(corsOptions));
 app.use(express.json());
